@@ -34,7 +34,7 @@
 			<div class="wrap-login100">
 				<form class="login100-form validate-form" action="<?php echo site_url('processRegister'); ?>" method="post">
 					<span class="login100-form-logo">
-						<i class="zmdi zmdi-landscape"></i>
+					<img src="submitReset/images/hao_logo.svg" alt="Hao Logo">
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">

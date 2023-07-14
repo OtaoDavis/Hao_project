@@ -29,12 +29,15 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Auth::landingPage');
+$routes->get('landing_page', 'Auth::landingPage');
 $routes->get('user_login', 'Auth::login');
 $routes->get('register', 'Auth::register');
 $routes->get('user_login', 'Auth::login');
 $routes->post('processRegister', 'Auth::processRegister');
 $routes->post('processLogin', 'Auth::landingPage');
+$routes->get('submit_reset', 'Auth::submitReset');
+$routes->get('reset_password_form', 'Auth::resetpasswordForm');
+
 
 
 

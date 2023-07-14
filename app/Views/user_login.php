@@ -18,11 +18,11 @@
 </head>
 <body>
 	<div class="limiter">
-    	<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+    	<div class="container-login100" style="background-image: url('login_view/images/bg-01.jpg');">
         	<div class="wrap-login100">
             	<form class="login100-form validate-form" action="<?php echo site_url('processLogin'); ?>" method="post">
                 	<span class="login100-form-logo">
-                    <i class="zmdi zmdi-landscape"></i>
+                    <img src="submitReset/images/hao_logo.svg" alt="Hao Logo">
                 	</span>
 
                 	<span class="login100-form-title p-b-34 p-t-27">
@@ -49,6 +49,9 @@
                 	<?php if (isset($error)) : ?>
                     	<div class="error-message"><?= $error ?></div>
                 	<?php endif; ?>
+					<div class="text-center p-b-20">
+                    	<a class="txt2" href="<?php echo site_url('submit_reset'); ?>">Forgot password?</a>
+                	</div>
 
                 	<div class="container-login100-form-btn">
                     	<button class="login100-form-btn" type="submit">

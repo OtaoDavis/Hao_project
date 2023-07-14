@@ -47,15 +47,14 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-            </a>
+            <a href="#" class="logo"><img            </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="listing.html">Listing</a></li>
-              <li><a href="view_bookings.html">View Bookings</a></li>             
-              <li><div class="main-white-button"><a href="add_listing.hml"><i class="fa fa-plus"></i> Add Your Listing</a></div></li> 
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">Listing</a></li>
+              <li><a href="#">View Bookings</a></li>             
+              <li><div class="main-white-button"><a href="#"><i class="fa fa-plus"></i> Add Your Listing</a></div></li> 
             </ul> 
             <a href="<?php echo site_url('user_login'); ?>"><span class="material-symbols-outlined">account_circle</span><?php echo session('user_session'); ?></a>
     
@@ -111,18 +110,6 @@
             </div>
           </form>
         </div>
-        <div class="col-lg-10 offset-lg-1">
-          <ul class="categories">
-            <li><a href="category.html"><span class="icon"><img src="assets/images/search-icon-01.png" alt="Home"></span> Apartments</a></li>
-            <li><a href="listing.html"><span class="icon"><img src="assets/images/search-icon-02.png" alt="Food"></span> Food &amp; Life</a></li>
-            <li><a href="#"><span class="icon"><img src="assets/images/search-icon-03.png" alt="Vehicle"></span> Cars</a></li>
-            <li><a href="#"><span class="icon"><img src="assets/images/search-icon-04.png" alt="Shopping"></span> Shopping</a></li>
-            <li><a href="#"><span class="icon"><img src="assets/images/search-icon-05.png" alt="Travel"></span> Traveling</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div class="recent-listing">
     <div class="container">
